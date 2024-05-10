@@ -54,7 +54,7 @@ const BottomZigZagWrapper = styled(ZigZagWrapper)`
 `;
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal)
   return (
